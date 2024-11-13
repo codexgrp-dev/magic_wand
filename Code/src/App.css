@@ -1,0 +1,95 @@
+/* Dark background for the entire app */
+.app-background {
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form styling */
+.form-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  font-family: Arial, sans-serif;
+}
+
+.form-container h2 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+}
+
+.file-upload {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.file-upload input[type="file"] {
+  display: none;
+}
+
+.file-upload span {
+  margin-left: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.save-button,
+.close-button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button:hover,
+.close-button:hover {
+  background-color: #444;
+}
